@@ -1,0 +1,54 @@
+*{margin: 0;padding: 0;}
+html{font-family: "Microsoft Yahei";-webkit-text-size-adjust: 100%;-ms-text-size-adjust:100%;}
+body{font:14px/1.5 "Microsoft YaHei",\5FAE\8F6F\96C5\9ED1,sans-serif;color:#212e3e;background:#ffffff;overflow-x:auto;min-width:1200px;}
+article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}
+a{text-decoration: none;}a;hover,a:active,a:focus{text-decoration: none;outline: none;}
+img{border: 0;vertical-align: middle;margin: 0;padding: 0;}
+ul,li,ol,dl,dd,dt{list-style:none;margin:0}
+table{border-collapse:collapse;border-spacing:0;}table .tdl{text-align:left;}table .tdr{text-align:right;} 
+textarea{overflow:auto}
+h2{font-size: 24px;font-weight: normal;}
+.clearfix{*zoom:1;}.clearfix:after{content: "";clear: both;height: 0;display: block;visibility: hidden;}
+.rel{position: relative;}.abs,.ico{position: absolute;display: block;z-index: 1;font-size: 0;}
+.fl{float: left;}.fr{float: right;}
+.hid{display: none;}.vis{display: block;}
+.mt10{margin-top:10px;}.mt20{margin-top:20px;}.mt35{margin-top: 35px;}.mt40{margin-top:40px;}.mt30{margin-top:30px;}.ml10{margin-left:10px;}.ml20{margin-left:20px;}
+.mr10,.mr20,.mr40{display:inline}.mr10{margin-right:10px;}.mr20{margin-right:20px;}.mr40{margin-right:40px;}
+.wrap{width: 1200px;margin: 0 auto;}.wraper{width: 1000px;margin: 0 auto;}
+.wrap:after{content: "";clear: both;height: 0;visibility: hidden;display: block;}
+.fs12{font-size: 12px;}.fs14{font-size: 14px;}.fs16{font-size: 16px;}.fs18{font-size: 18px;}.fs20{font-size: 20px;}.fs22{font-size: 22px;}.fs24{font-size: 24px;}.fs26{font-size: 26px;}.fs28{font-size: 28px;}.fs30{font-size: 30px;}.fs34{font-size: 34px;}.fs38{font-size: 38px;}.fs60{font-size: 60px;}
+.c-red{color: #f03112;}a.c-red:hover{}
+.c-blue{color: #6c87fb;}a.c-blue:hover{}.c-blue2{color:#1f8bd7;}
+.c-green{color: #31e26e;}a.c-green:hover{}
+.c-gray{}a.c-gray:hover{}
+.c-black{color: #212e3e;}a.c-black:hover{}
+.c-9{color: rgba(33,46,62,0.9);}a.c-9:hover{}
+.c-7{color: rgba(33,46,62,0.7);}
+/*禁用链接*/
+.a-disabled{color:#999;}a.a-disabled:hover{color:#999;text-decoration:none;cursor:default;}
+.btn{display: block;text-align: center;}
+/*Tab*/
+.tab-content .tab-pane{display:none}
+.tab-content .active{display:block}
+.fade{opacity:0;-webkit-transition:opacity .15s linear;-o-transition:opacity .15s linear;transition:opacity .15s linear;}
+.fade.in{opacity:1;}
+/*transform*/
+.tf-45{transform:rotate(-45deg);-ms-transform:rotate(-45deg);-moz-transform:rotate(-45deg);-webkit-transform:rotate(-45deg);-o-transform:rotate(-45deg);}
+/*top*/
+.m-topbar{height: 36px;background-color: #f5f5fa;}
+.m-topbar .telbox{height: 36px;line-height: 36px;color: #212e3e;float: left;font-size: 12px;}
+.m-topbar .ico-weixin{background: url(../images/common/weixin.png);height: 23px;width: 23px;cursor: pointer;left: 170px;top: 7px;position: absolute;display: block;z-index: 1;font-size: 0;}
+.m-topbar .ico-l-weixin{background: url(../images/common/l-weixin.png);height: 23px;width: 23px;cursor: pointer;position: absolute;z-index: 1;font-size: 0;}
+.m-topbar .ico-weixin:hover .vis{display: none;}.m-topbar .ico-weixin:hover .hid{display: block;}
+.m-topbar .ico-weibo{background: url(../images/common/weibo.png);height: 23px;width: 23px;cursor: pointer;left: 205px;top: 7px;position: absolute;display: block;z-index: 1;font-size: 0;}
+.m-topbar .ico-l-weibo{background: url(../images/common/l-weibo.png);height: 23px;width: 23px;cursor: pointer;position: absolute;z-index: 1;font-size: 0;}
+.m-topbar .ico-weibo:hover .vis{display: none;}.m-topbar .ico-weibo:hover .hid{display: block;}
+.m-topbar .topnav{height: 36px;line-height: 36px;font-size: 12px;}
+.m-topbar .topnav li{float: left;}.m-topbar .topnav li.cut{margin: 0 15px;color: rgba(33,46,62,0.3);}
+.m-topbar .topnav li.myacc{display: none;}
+.m-topbar .topnav li a{color: #212e3e;}.m-topbar .topnav li a:hover{color: #f03112;}
+.m-topbar .topnav li a.hi{color: #f03112;}
+.head .logo{width: 180px;margin-top: 7.5px;margin-bottom: 7.5px;}
+.head .head-nav{height: 80px;line-height: 80px;}
+.head li{float: left;margin-left: 100px;}
+.head li a{color: #212e3e;font-size: 18px;}.head li a.active{color: #f03112;}

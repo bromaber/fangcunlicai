@@ -1,0 +1,22 @@
+.c-yellow{color: #fffe88;}.c-white{color: #ffffff;}
+.fs120{font-size: 120px;}.fs80{font-size: 80px;}.fs50{font-size: 50px;}
+.bg-gray{background-color: #f5f5fa;}
+.banner{width: 100%;height: 460px;}
+.banner img{width: 100%;height: 460px;}
+.banner .nav{position: absolute;width: 1200px;left: 50%;margin-left: -600px;}
+.banner .nav .title{text-align: center;margin-top: 65px;margin-bottom: 80px;}
+.banner .nav .title img.left{width: 12px;height: 10px;display: inline-block;    margin-left: 20px;margin-top: -40px;margin-right: -8px;}
+.banner .nav .title img.right{width: 12px;height: 10px;display: inline-block;    margin-left: 5px;margin-top: 25px;}
+.banner .nav p{display: inline-block;color: #ffffff;font-size: 28px;position: relative;top: 15px;}
+.banner li{float: left;margin-left: 30px;}
+.banner li:first-child{margin-left: 0px;}
+.banner li a{height: 60px;width: 175px;border-radius: 4px;color: #fff;background-color: rgba(33,46,62,0.3);display: block;font-size: 20px;line-height: 62px;text-align: center;}
+.mainebody .text{width: 700px;}
+.mainebody h3{font-weight: normal;font-size: 26px;margin-top: 160px;margin-bottom: 30px;}
+.mainebody p{font-size: 22px;color: #7d8289;}
+.mainebody img{margin-top: 140px;margin-right: 115px;}
+.system,.ensure,.supervise,.secret,.cup,.law{height: 440px;}
+.supervise img{margin-right: 55px;}
+.secret img{margin-right: 95px;}
+
+

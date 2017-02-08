@@ -1,0 +1,210 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>购买</title>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="description" content=" " />
+<meta name="keywords" content=" " />
+<link href="css/common.css" rel="stylesheet"/>
+<link href="css/trade.css" rel="stylesheet"/>
+<link href="css/ui.css" rel="stylesheet"/>
+<script src="js/jquery-1.9.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/jquery.input.js"></script>
+<script src="js/icheck.js"></script>
+</head>
+<body>
+
+<!--头部开始-->
+<div id="top">
+  <div class="m-topbar">
+    <div class="wrap clearfix">
+      <div class="telbox rel">
+        <span class="fl">客服热线：0571-87555481</span>
+        <i class="ico ico-weixin hid"><img class="hid" src="images/common/l-weixin.png" style="margin-bottom:20px;"></i>
+        <i class="ico ico-weibo hid"><img class="hid" src="images/common/l-weibo.png" style="margin-bottom:20px;"></i>
+      </div>
+      <div class="top-nav">
+        <ul>
+          <li><a href="myaccounts.html" class="aphone hi">我的账户</a></li>
+          <li class="c-grayccc">｜</li>
+          <li><a href="login.html" class="aphone hi">退出登录</a></li>
+          <li class="c-grayccc">｜</li>
+          <li><a href="javascript:;" class="aphone">手机客户端</a></li>
+          <li class="c-grayccc">｜</li>
+          <li><a href="help.html" target="_blank" style="padding-right:0">帮助中心</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="head">
+    <div class="wrap clearfix" style="position:relative;">
+      <div class="logo">
+        <a href="default.html"><img src="images/t-logo.png"></a>
+      </div>
+      <div class="head-nav fl">
+        <ul>
+          <li><a href="default.html">首页</a></li>
+          <li><a href="safe.html">安全保障</a></li>
+          <li><a href="aus.html">关于我们</a></li>
+        </ul>
+      </div>
+      <div class="log-btn fr" style="display:none;">
+      <a href="login.html" class="logbtn lbtn2 fl fs16" target="_blank">登录</a>
+      <a href="register.html" class="logbtn lbtn2 fr fs16" target="_blank">注册</a>
+      </div>
+    </div>
+  </div>
+</div>
+<!--头部结束-->
+<div class="mainbody">
+  <div class="wrap">
+    <div class="buy">
+      <h2>买入详情</h2>
+      <div class="line"></div>
+      <div class="info">
+        <h3>基金信息：</h3>
+        <span>天金所收益分享合约2016年第2期</span>
+        <div class="step">
+          <img src="images/step.png">
+          <ul class="clearfix">
+            <li>提前买入余额</li>
+            <li>募集结束通知</li>
+            <li>从余额转入募集产品</li>
+          </ul>
+        </div>
+      </div>
+      <div class="sum">
+        <h3>投资金额：</h3>
+        <div class="inp"><input type="text" name="" placeholder="1000.00"><span class="fr">元</span></div>
+      </div>
+      <div class="mode">
+        <h3>支付方式：</h3>
+        <dl class="default">
+          <dt>
+            <input type="radio" class="icheck" name="check-pay" id="input-pay1" checked="checked">
+          </dt>
+          <dd>
+            <label for="input-pay1">建设银行储蓄卡<span class="c-gray">(6092)</span></label>
+          </dd>
+        </dl>
+        <br/>
+        <dl class="nodefault">
+          <dt>
+            <input type="radio" class="icheck" name="check-pay" id="input-pay2">
+          </dt>
+          <dd>
+            <label for="input-pay2">广发银行储蓄卡<span class="c-gray">(6092)</span></label>
+          </dd>
+        </dl>
+        <p>提前买入余额+，等待期间可享货币基金收益</p>
+      </div>
+      <div class="first" style="display: none;">
+        <h3>支付方式：</h3>
+        <input type="text" class="name" placeholder="请输入您的姓名"/>
+        <input type="text" class="idcard" placeholder="请输入您的身份证号"/>
+        <input type="text" class="bankcard" name="card" placeholder="请输入您的银行卡号">
+        <label for="card"><select>
+          <option value="ICBC">中国工商银行</option>
+          <option value="ABC">中国农业银行</option>
+          <option value="CCB">中国建设银行</option>
+          <option value="BOC">中国银行</option>
+          <option value="BOCOM">中国交通银行</option>
+          <option value="CIB">兴业银行</option>
+          <option value="CITIC">中信银行</option>
+          <option value="CEB">中国光大银行</option>
+          <option value="PAB">平安银行</option>
+          <option value="PSBC">中国邮政储蓄银行</option>
+          <option value="SHB">上海银行</option>
+          <option value="SPDB">浦发银行</option>
+          <option value="CMBC">中国民生银行</option>
+          <option value="CMB">招商银行</option>
+          <option value="GDB">广发银行</option>
+        </select></label>
+        <input type="text" class="banknum" name="number" placeholder="银行预留手机号">
+        <p>提前买入余额+，等待期间可享货币基金收益</p>
+      </div>
+      <div class="icheck-box icheck-m12" style="margin-left:265px;margin-top:30px;">
+        <input type="checkbox" class="icheck" name="iCheck" id="inputG">
+        <label for="inputG">我已认真阅读并同意</label><a href="images/description.pdf" class="c-blue2" target="_blank">《 产品说明书 》</a>
+      </div>
+      <a href="success.html" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">确认购买</a>
+    </div>
+  </div>
+</div>
+<!--底部开始-->
+<div id="bottom">
+  <div class="footer">
+    <div class="wrap clearfix">
+      <dl>
+        <dt class="fs18">安全保障</dt>
+        <dd>
+          <ul>
+          <li><a href="risk.html" target="_blank">风险提示</a></li>
+          <li><a href="disclaimer.html" target="_blank">免责条款</a></li>
+          </ul>
+        </dd>
+      </dl>
+      <dl class="bor">
+        <dt class="fs18">关于我们</dt>
+        <dd>
+          <ul>
+          <li><a href="aus.html" target="_blank">关于我们</a></li>
+          <li><a href="aus.html" target="_blank">联系我们</a></li>
+          </ul>
+        </dd>
+      </dl>
+      <div class="foot-tel" style="margin:5px 50px 20px 100px">
+        <p class="tel-zn fs18">免费客服热线</p>
+        <p class="tel-num fs22">0571-87555481</p>
+        <p class="tel-time fs18">工作日9:00-20:00</p>
+      </div>
+      <img src="images/b-logo.png" style="margin:30px 0 0 105px">
+    </div>
+    <div class="wrap">
+      <div class="foot-tips">
+        <div class="sline"></div>
+        <span class="abs">投资需谨慎</span>
+      </div>
+      <div class="foot-copy">Copyright &copy; 2016 方寸山投资管理合伙企业 版权所有&nbsp;浙ICP备16031432号-1</div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <h3 class="modal_p">请输入验证码</h3>
+      <input type="text" name="" class="modal_input">
+      <button type="submit" class="modal_btn">确认</button>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal -->
+</div>
+<!--底部结束--> 
+
+<script>
+$(document).ready(function(){
+  $(".icheck").iCheck({
+    checkboxClass: 'icheckbox_square',
+    radioClass: 'iradio_square',
+    increaseArea: '30%' 
+  });
+});
+</script> 
+<script>
+$(function(){
+   $('#tipPlace').attr("data-content","交易成功后手续费返现到红包账户");
+   $('#tipPlace').popover("show")
+   $("#payBankJs dl").click(function(){
+     $('#tipPlace').attr("data-content","现金宝支付手续费全额返还");
+	 $('#tipPlace').popover("show")
+   });
+   $("#payCashJs dl").click(function(){
+     $('#tipPlace').attr("data-content","交易成功后手续费返现到红包账户");
+	 $('#tipPlace').popover("show")
+   });
+});
+</script>
+</body>
+
+</html>
